@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+//1.引入路由
+import {HashRouter as Router,Route,Switch} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//2. 引入路由页面组件
+import Index from '@/views/index';
+// import Markiet from '@/views/market';
+import Login from '@/views/login';
+// import Center from '@/views/center';
+
+export default class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route path="/login" component={Login}/>
+          {/* <Route path ="/center" component={Center}/>
+          <Route path ="/market" component={Markiet}/> */}
+          <Route path="/" component={Index}/>
+        </Switch>
+      </Router>
+    );
+  }
 }
-
-export default App;
