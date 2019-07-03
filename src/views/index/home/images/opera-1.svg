@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g id="图层_2">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="112.6133" y1="498.8184" x2="332.1514" y2="-46.3413" gradientTransform="matrix(1 0 0 -1 -47.6602 330.04)">
+		<stop  offset="0" style="stop-color:#E72A32"/>
+		<stop  offset="0.2822" style="stop-color:#E62931"/>
+		<stop  offset="0.4597" style="stop-color:#E02830"/>
+		<stop  offset="0.6082" style="stop-color:#D5252D"/>
+		<stop  offset="0.7407" style="stop-color:#C52229"/>
+		<stop  offset="0.8626" style="stop-color:#B01F26"/>
+		<stop  offset="0.9753" style="stop-color:#971D23"/>
+		<stop  offset="1" style="stop-color:#911D22"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M391.849,434.13c-39.154,29.81-87.993,47.5-140.948,47.5
+		c-128.784,0-233.186-104.574-233.186-233.572c0-129.014,104.402-233.586,233.186-233.586c52.602,0,101.134,17.441,140.148,46.88
+		c-20.973-8.712-43.779-13.493-67.638-13.493c-103.277,0-186.983,89.567-186.983,200.046c0,110.494,83.706,200.06,186.983,200.06
+		C347.561,447.964,370.646,443.061,391.849,434.13z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="366.7744" y1="-63.1396" x2="393.2359" y2="256.4686" gradientTransform="matrix(1 0 0 -1 -47.6602 330.04)">
+		<stop  offset="0.0182" style="stop-color:#E94D4B"/>
+		<stop  offset="0.1585" style="stop-color:#DC4542"/>
+		<stop  offset="0.9576" style="stop-color:#911D22"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M484.07,248.057c0,75.949-36.178,143.435-92.223,186.073c-21.202,8.931-44.289,13.834-68.439,13.834
+		c-57.183,0-108.35-27.451-142.663-70.721c19.909,20.681,44.707,32.924,71.571,32.924c65.603,0,118.774-73.064,118.774-163.187
+		c0-90.123-53.171-163.189-118.774-163.189c-23.318,0-45.077,9.237-63.428,25.199c33.973-37.69,81.687-61.13,134.52-61.13
+		c23.858,0,46.665,4.781,67.637,13.493C447.536,103.975,484.07,171.737,484.07,248.057z"/>
+</g>
+<g id="图层_1_1_" display="none">
+	<g display="inline">
+		<g>
+			<g>
+				<rect id="SVGID_3_" x="3.286" fill="#F5F5F5" width="417.41" height="393.732"/>
+			</g>
+			<g>
+				<defs>
+					<rect id="SVGID_4_" x="3.286" width="417.41" height="393.732"/>
+				</defs>
+				<clipPath id="SVGID_5_">
+					<use xlink:href="#SVGID_4_"  overflow="visible"/>
+				</clipPath>
+				<g transform="matrix(1 0 0 1 -9.999792e-008 -2.016228e-005)" clip-path="url(#SVGID_5_)">
+					
+						<image overflow="visible" enable-background="new    " width="418" height="395" xlink:href="7AC0741C.jpg"  transform="matrix(0.9986 0 0 -0.9968 3.2856 393.7354)">
+					</image>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

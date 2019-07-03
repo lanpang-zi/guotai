@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../../../node_modules/swiper/dist/css/swiper.min.css">
+  <style>
+    .swiper-container {
+    width: 600px;
+    height: 300px;
+} 
+.swiper-slide{
+  background:pink;
+
+} 
+  </style>
+</head>
+<body>
+  <script src="../../../../node_modules/swiper/dist/js/swiper.min.js"></script>  
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+  </div>
+  <script>        
+      var mySwiper = new Swiper ('.swiper-container', {
+        loop: true, // 循环模式选项
+        freeMode : true,
+        slidesPerView : 3,
+        spaceBetween : 20,
+      })        
+  </script>
+  <!-- <script>
+      window.onload = function() {
+        
+      }
+      </script> -->
+</body>
+</html>
