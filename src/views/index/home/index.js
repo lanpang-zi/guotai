@@ -16,6 +16,7 @@ export default class Home extends Component {
         <List/>
         <Section/>
         <Hswiper/>
+        <Bottom/>
       </div>
     )
   }
@@ -80,14 +81,14 @@ class Box extends React.Component{
         'c8e89f4f-0926-4bd1-914e-b81e70ba7ac5icon-menu-2',
         '14c65361-8073-4803-8bf6-57615f387bc2icon-menu-7',
         'cd28dd6f-3cf9-4f8f-b337-0639a25677fficon-menu-1',
-        'c8e89f4f-0926-4bd1-914e-b81e70ba7ac5icon-menu-2',
-        '14c65361-8073-4803-8bf6-57615f387bc2icon-menu-7',
-        'cd28dd6f-3cf9-4f8f-b337-0639a25677fficon-menu-1',
-        'c8e89f4f-0926-4bd1-914e-b81e70ba7ac5icon-menu-2',
-        '14c65361-8073-4803-8bf6-57615f387bc2icon-menu-7',
-        'cd28dd6f-3cf9-4f8f-b337-0639a25677fficon-menu-1',
-        'c8e89f4f-0926-4bd1-914e-b81e70ba7ac5icon-menu-2',
-        '14c65361-8073-4803-8bf6-57615f387bc2icon-menu-7',]
+        'c084a14e-9fd0-430b-902e-4ebdf4d94e47icon-menu-5',
+        '6a03ff49-fdc4-4304-9db4-61e08ee34ad3icon-menu-4',
+        'a6cd8d21-39d6-49e4-b942-24e53e3676f1icon-menu-9',
+        'fe17e6e6-87fb-4bda-85dd-d33be2a1ea60icon-menu-11',
+        '5933933a-4f41-4492-b78d-763b6264f290icon-menu-12',
+        '60ed408e-28f3-45f8-99aa-a12c609c1d05icon-menu-10',
+        '820edfb4-83ad-49da-bc46-fd831635f897icon-menu-3',
+        '6061526f-2556-46d5-b7ce-4d806468708cicon-menu-6',]
       ,
       list:['收益凭证','我要融资','收益凭证']
   }
@@ -262,12 +263,12 @@ class Hswiper extends React.Component{
   }
 }
  
-class Footer extends React.Component{
+class Bottom extends React.Component{
   render(){
     return(
-      <div className="footer">
+      <div className="bottom">
         <div>
-          
+
         </div>
       </div>
     )
