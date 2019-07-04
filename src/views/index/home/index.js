@@ -4,13 +4,15 @@ import './index.less';
 import { Carousel, WingBlank } from 'antd-mobile';
 import'../../../../node_modules/swiper/dist/css/swiper.css';
 import Swiper from  '../../../../node_modules/swiper/dist/js/swiper.js';
-
+import 'antd-mobile/dist/antd-mobile.css'; 
 
 export default class Home extends Component {
   render() {
     return (
       <div className="over">
-        <NavLink to=""><input type="text" placeholder="股票,基金,理财产品"/></NavLink>
+        <div className="input-box">
+        <input type="text" placeholder="股票,基金,理财产品"/>
+        </div>
         <Aswiper/>
         <Box/>
         <List/>
@@ -100,10 +102,10 @@ class Box extends React.Component{
         <ul className="Box-list">
           {this.state.img.map((item)=>{
             return(
-            <li key={item} className="list" >
+           <NavLink to="../../finance"><li key={item} className="list" >
               <img src={`https://apicdn.app.gtja.com/public/jrsc/newMall/img/v1_${item}.png`} alt="" />
               <p>收益凭证</p>
-            </li>
+            </li></NavLink> 
           )
         })}
         </ul>

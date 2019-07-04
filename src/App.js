@@ -6,6 +6,7 @@ import {HashRouter as Router,Route,Switch} from 'react-router-dom';
 import Index from '@/views/index';
 // import Markiet from '@/views/market';
 import Login from '@/views/login';
+import Finance from '@/views/finance'
 // import Center from '@/views/center';
 
 export default class App extends Component {
@@ -14,6 +15,8 @@ export default class App extends Component {
       <Router>
         <Switch>
           <Route path="/login" component={Login}/>
+          <Route path="/finance" component={Finance}/>
+
           {/* <Route path ="/center" component={Center}/>
           <Route path ="/market" component={Markiet}/> */}
           <Route path="/" component={Index}/>
