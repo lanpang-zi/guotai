@@ -6,6 +6,7 @@ import store from './store';
 import './styles/base.less';
 
 
+
 ReactDOM.render(
   <Provider store={store}>
     <App/>
