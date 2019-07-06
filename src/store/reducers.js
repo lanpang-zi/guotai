@@ -1,8 +1,3 @@
-const defaultState = {
-  user:{}
-};
-export default (state = defaultState,action) => {
-  let newState =JSON.parse(JSON.stringify(state));
+import userReducer from '../views/login/store/reducer';
 
-  return newState;
-};
+export const user = userReducer;
