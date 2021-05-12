@@ -18,7 +18,7 @@
     "react-scripts": "3.0.1",
     "redux": "^4.0.1",
     "styled-components": "^4.3.2",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "vant": "^2.0.4",
     "yarn": "^1.16.0"
   },
